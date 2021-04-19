@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+body {
+    margin: 0;
+}
+
+.vending-machine, .make-money, .light-bulb {
+    min-width: 100px;
+    min-height: 33.33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.vending-machine {
+    background-color:ivory;
+}
+
+.make-money {
+    background-color:lavenderblush;
+}
+
+.light-bulb {
+    background-color: lightcyan;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: xx-large;
+}
+
+form, .buttons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.coins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.penny-1, .nickel-1, .dime-1, .quarter-1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    position: absolute;
+}
+
+.light-bulb-1 {
+    background-color:dimgray;
+    padding: 3px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+}
+
+.light-bulb-1.switch {
+    background-color: floralwhite;
+    padding: 3px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+}
+
+.buttons-9 {
+    background-color:lightgray;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+}
+
+.buttons-9:hover {
+    background-color: lightslategray;
+}
+
+.total-price, .how-much, .which-coin {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#input, #input-1, #select-1 {
+    background-color: ghostwhite;
+    border: 2px solid black;
+    border-radius: 10px;
+}

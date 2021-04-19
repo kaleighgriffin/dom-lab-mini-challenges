@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Lab - Mini Challenges</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="vending-machine">
+            <h1>Vending Machine</h1>
+            <form>
+                <div class="total">
+                    <label for="total-1" class="total-price">Total:</label>
+                    <input type="number" class="total-price" id="input" placeholder="$0.00" />
+                </div>
+                <div class="buttons">
+                    <button class="buttons-9" id="button-1">Lime Cola $2.00</button>
+                    <button class="buttons-9" id="button-2">Salted Peanuts $3.00</button>
+                    <button class="buttons-9" id="button-3">Chocolate Bar $4.00</button>
+                    <button class="buttons-9" id="button-4">Fruit Gummies $6.00</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="make-money">
+            <h1>Make Money</h1>
+            <form>
+                <label for="price" class="how-much">How Much?</label>
+                <input type="number" class="how-much" id="input-1" />
+                <label for="coin" class="which-coin">Which coin?</label>
+                <select name="drop1" class="which-coin" id="select-1">
+                    <option value="penny">Penny</option>
+                    <option value="nickel">Nickel</option>
+                    <option value="dime">Dime</option>
+                    <option value="quarter">Quarter</option>
+                </select>
+                <div class="buttons">
+                    <button class="buttons-9" id="button-5">Make Money!</button>
+                </div>
+                <div class="coins">
+                    <div class="penny-1">Penny</div>
+                    <div class="nickel-1">Nickel</div>
+                    <div class="dime-1">Dime</div>
+                    <div class="quarter-1">Quarter</div>
+                </div>
+            </form>
+        </div>
+
+        <div class="light-bulb">
+            <h1>Light Bulb</h1>
+            <form>
+                <div class="light-bulb-1" id="light"></div>
+                <button class="buttons-9" id="button-6">On</button>
+                <button class="buttons-9" id="button-7">Off</button>
+                <button class="buttons-9" id="button-8">Toggle</button>
+                <button class="buttons-9" id="button-9">End</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
